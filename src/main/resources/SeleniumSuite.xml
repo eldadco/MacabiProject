@@ -1,0 +1,11 @@
+<suite name="Suite1" verbose="1">
+    <parameter name="runner" value="local"/> <!-- local/remote -->
+    <parameter name="headless" value="false"/>
+    <test name="Selenium suite on chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Tests.HomePageTest"/>
+
+        </classes>
+    </test>
+</suite>
